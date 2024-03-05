@@ -13,6 +13,6 @@
 //     return [...Array(n)].map((bag, i) => i + 1).reverse();
 // }
 
-const reverseSeq = n => {return [...Array(n)].map((bag, i) => n-i)};
+const reverseSeq = n => [...Array(n)].map((bag, i) => n-i);
 
 console.log(reverseSeq(5));
